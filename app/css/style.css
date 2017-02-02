@@ -1,0 +1,379 @@
+/* Variabelen */
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+a {
+  color: #000000;
+  font-family: "FrutigerNeueThin", helvetica, arial, sans-serif, sans-serif; }
+
+p {
+  color: #000000;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; }
+
+body,
+html {
+  height: 100%;
+  width: 100%; }
+
+/* Extra class for body when scrolled */
+body.scrolled header {
+  background-color: #ffffff; }
+
+/* Header logo and navigation */
+header {
+  padding: 1em;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-transition: background-color 1s;
+  /* Safari */
+  transition: background-color 1s; }
+
+header > nav .logo {
+  display: inline-block;
+  background: url(../images/logo.svg) no-repeat 0 0;
+  width: 240.752px;
+  height: 51px;
+  text-indent: -999em; }
+
+header > nav ul li:nth-child(-n+3) {
+  display: none; }
+
+header > nav .nav-icon {
+  display: inline-block; }
+
+header > nav ul li.nav-icon {
+  position: absolute;
+  padding: 1em;
+  top: 1em;
+  right: 1em; }
+
+header > nav ul.responsive li:nth-child(-n+3) {
+  display: block;
+  padding: 1em;
+  border-bottom: 0.006em solid #ecf0f1; }
+
+header > nav ul.responsive li:nth-child(1) {
+  margin-top: 1em; }
+
+header > nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+nav ul li a:hover {
+  border-bottom: 0.1em solid #98C21F; }
+
+/* Header image with h1 and sub p */
+.header-image {
+  height: 100%;
+  background-image: url(../images/mirabeau_office.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#over-mirabeau {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/mirabeau.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#werkzaamheden {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/icon_insights.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#rvandenbergh {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/rvandenbergh.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#observatie-1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/proces.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#observatie-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/agile.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#observatie-3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/icon_people.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#leerdoel-1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/icon_development-hoofd.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#leerdoel-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/icon_miracademy.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#leerdoel-3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/icon_cxm-center-aligned.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div.header-image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+div.header-image h1 {
+  font-size: 10vw;
+  text-transform: uppercase;
+  color: #98C21F;
+  text-shadow: 0.2vw 0.2vw #000000; }
+
+/* Styling of the articles */
+main article h1 {
+  text-transform: uppercase;
+  color: #98C21F;
+  text-align: center;
+  padding: 1em;
+  font-size: 2em; }
+
+main article h2 {
+  text-transform: uppercase;
+  color: #98C21F;
+  width: 100%;
+  text-align: center;
+  padding: 1em; }
+
+main article p.intro-text {
+  color: #95a5a6;
+  text-align: center;
+  width: 90%;
+  padding: 2em;
+  margin: auto;
+  font-style: italic; }
+
+main article {
+  display: flex;
+  flex-direction: column; }
+
+main article > img {
+  width: 100%; }
+
+main article section {
+  padding: 1em; }
+
+main article section h3 {
+  text-transform: uppercase;
+  width: 100%;
+  border-bottom: 0.1em solid #98C21F;
+  margin-bottom: 1em; }
+
+main article section img {
+  width: 100%;
+  min-height: 30vh;
+  max-height: 30vh;
+  object-fit: cover; }
+
+main article section p {
+  padding: 1em 0em; }
+
+main article section p {
+  line-height: 1.3em; }
+
+main article section > p,
+main article section div.seperate > p {
+  height: 9.8em;
+  overflow: hidden; }
+
+main article section div.lees-meer {
+  text-align: right;
+  font-style: italic;
+  width: 100%; }
+
+main article section div.lees-meer a {
+  color: #98C21F;
+  text-decoration: none; }
+
+main article section div.lees-meer p {
+  color: #98C21F; }
+
+main.content-page article > h2 {
+  text-align: left;
+  padding-left: 0em; }
+
+main article > ul {
+  font-size: 1.1em;
+  margin-bottom: 1em; }
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 5em;
+  background-color: #333333; }
+
+footer p,
+footer input,
+footer label,
+footer a {
+  color: #909090; }
+
+footer nav ul {
+  list-style-type: none; }
+
+footer nav ul li {
+  line-height: 2em; }
+
+footer nav ul li a {
+  text-decoration: none; }
+
+footer form,
+footer nav {
+  padding: 2em;
+  width: 100%; }
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+footer form label {
+  font-family: "FrutigerNeueThin", helvetica, arial, sans-serif, sans-serif;
+  display: inline-block;
+  width: 5em;
+  height: 2em;
+  line-height: 2em; }
+
+footer form input {
+  height: 2em;
+  border: none;
+  padding: 0.5em; }
+
+footer form button {
+  background-color: transparent;
+  color: #98C21F;
+  width: 10em;
+  height: 3em;
+  margin-top: 1em;
+  border: solid 0.1em #98C21F; }
+
+footer form button:hover {
+  background-color: #98C21F;
+  color: #ffffff; }
+
+footer h4 {
+  color: #98C21F;
+  margin-bottom: 1em; }
+
+/* Background images */
+.bg-image1 {
+  height: 50vw;
+  background-image: url(../images/background2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-image2 {
+  height: 50vw;
+  background-image: url(../images/transavia.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* Styling van de content pagina's */
+main.content-page article {
+  width: 100%;
+  padding: 2em; }
+
+main.content-page article p {
+  margin-bottom: 2em; }
+
+@media screen and (min-width: 31.25em) {
+  main article {
+    justify-content: space-around; }
+  main article section {
+    width: 80%;
+    margin: auto;
+    padding: 0em; }
+  footer form,
+  footer nav {
+    width: 50%; }
+  main.content-page article {
+    max-width: 40em;
+    margin: auto;
+    padding: none; } }
+
+@media screen and (min-width: 41.688em) {
+  main article {
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2em 0em; }
+  main article section:nth-of-type(-n+2) {
+    width: 45%; }
+  main article section:nth-of-type(n+3) {
+    width: 95%; }
+  main article section:nth-of-type(n+3) div.seperate {
+    width: 100%;
+    display: flex; }
+  main article section:nth-of-type(n+3) img {
+    width: 47%; }
+  main article section:nth-of-type(n+3) div.seperate p {
+    width: 53%;
+    padding-left: 5%; } }
+
+@media screen and (min-width: 53.125em) {
+  header > nav ul li:nth-child(-n+3) {
+    display: inline-block; }
+  header > nav .nav-icon {
+    display: none; }
+  header > nav ul {
+    list-style-type: none;
+    float: right; }
+  header > nav ul li {
+    padding: 1em;
+    display: inline-block; } }
+
+@media screen and (min-width: 62.5em) {
+  main article section:nth-of-type(-n+3) {
+    width: 30%; }
+  main article section:nth-of-type(n+3) div.seperate {
+    width: 100%;
+    display: block; }
+  main article section:nth-of-type(-n+3) img {
+    width: 100%; }
+  main article section:nth-of-type(n+3) div.seperate p {
+    width: 100%;
+    padding: 1em 0em; } }

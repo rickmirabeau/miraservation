@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 width="90px" height="30px">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#7D7D7D" d="M68.222,4.394l18.385,18.385l-2.828,2.828L65.394,7.222
+	L68.222,4.394z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#7D7D7D" d="M65.394,22.778L83.778,4.394l2.828,2.828L68.222,25.606
+	L65.394,22.778z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M32,5h26v4H32V5z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M32,13h26v4H32V13z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M32,21h26v4H32V21z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#7D7D7D" d="M2,5h26v4H2V5z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#7D7D7D" d="M2,13h26v4H2V13z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#7D7D7D" d="M2,21h26v4H2V21z"/>
+</svg>
